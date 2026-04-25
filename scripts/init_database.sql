@@ -34,7 +34,7 @@ Go
 
 -- Create Schemas
 
-Create Schema bonze;
+Create Schema bronze;
 Go
 
 Create Schema silver;
