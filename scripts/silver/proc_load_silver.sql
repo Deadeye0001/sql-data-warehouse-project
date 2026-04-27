@@ -1,3 +1,16 @@
+/*
+Stored Procedure : Load Silver Layer (Source > Bronze)
+
+Script Purpose :
+     This stored procedure loads data into the 'silver' schema from Bronze layer.
+    It perfroms the following action:
+    -Truncate the silver tables before loading data.
+    -Insert the cleane and transformed data from bronze to silver.
+
+Usage Example:
+    Exec bronze.load_bronze;
+*/
+
 Use DataWarehouse;
 Go
 
